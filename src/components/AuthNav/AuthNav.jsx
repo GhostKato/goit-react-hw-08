@@ -11,10 +11,10 @@ const AuthNav = () => {
   return (
     <ul className={s.list}>
       <li>
-        <NavLink className={buildLinkClass} to='/login'>Sing in</NavLink>        
+        <NavLink className={buildLinkClass} to='/login'>Log In</NavLink>        
       </li>
       <li>        
-          <NavLink className={buildLinkClass} to='/register'>Sing up</NavLink>
+          <NavLink className={buildLinkClass} to='/register'>Register</NavLink>
         
       </li>
     </ul>

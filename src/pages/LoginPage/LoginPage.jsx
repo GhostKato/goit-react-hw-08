@@ -16,8 +16,7 @@ const LoginPage = () => {
     password: '',
   };
 
-  const handleSubmit = (values, options) => {
-    console.log(values);
+  const handleSubmit = (values, options) => {    
     dispatch(logIn(values));
     options.resetForm();
   };

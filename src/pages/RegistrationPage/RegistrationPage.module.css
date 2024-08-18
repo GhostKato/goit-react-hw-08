@@ -54,6 +54,7 @@
 
 .link {
   margin-left: 5px;
+  color: rgb(131, 131, 196);
   transition: color 0.3s ease;
   &:hover {
     color: #14c57c;
