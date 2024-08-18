@@ -2,7 +2,7 @@ import s from './ContactForm.module.css';
 import { ErrorMessage, Formik, Form, Field } from 'formik';
 import { useDispatch } from 'react-redux';
 import * as Yup from 'yup';
-import { addContacts } from '../../redux/contactsOps.js';
+import { addContacts } from '../../redux/contacts/operations';
 
 const ContactForm = () => {
    
